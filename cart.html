@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" class="rel" />
+    <script
+      src="https://kit.fontawesome.com/04952554fb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="index.html"><img src="/Fasion Store.jpeg" class="logo" alt="" /></a>
+
+      <div>
+        <ul id="navbar" style="list-style: none; margin: 0; padding: 0">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li  class="active" id="lg-bag">
+            <a href="cart.html"><i class="fi fi-rr-shopping-cart"></i></a>
+          </li>
+
+          <a href="#" id="close"><i class="fi fi-rr-cross-small"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fi fi-rr-shopping-cart"></i></a>
+        <i id="bar" class="fi fi-rr-menu-burger"></i>
+      </div>
+    </section>
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+          
+          <tbody>
+            <tr>
+                <td><i class="far fa-times-circle"></i><a href="#"></a></td>
+                <td><img src="/f1.jpeg" alt=""></td>
+                <td>Cartoon T-shirt Summer Print</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.19</td>
+            </tr>
+            <tr>
+                <td><i class="far fa-times-circle"></i><a href="#"></a></td>
+                <td><img src="/f5.jpeg" alt=""></td>
+                <td>Cartoon T-shirt Summer Print</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.19</td>
+            </tr>
+            <tr>
+                <td><i class="far fa-times-circle"></i><a href="#"></a></td>
+                <td><img src="/f2.jpeg" alt=""></td>
+                <td>Cartoon T-shirt Summer Print</td>
+                <td>$128.14</td>
+                <td><input type="number" value="1"></td>
+                <td>$128.14</td>
+            </tr>
+          </tbody>
+        </thead>
+      </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+             <button class="normal">Add Coupon</button></div>
+          </div>
+          <div id="subtotal">
+            <h3>Card Totals</h3>
+            <table>
+                <tr>
+                    <td>Card Subtotal</td>
+                <td>$33</td>
+            </tr>
+            <tr><td>Shipping</td>
+            <td>Free</td></tr>
+            <tr><td> <strong>
+                Total</strong></td>
+            <td><strong>$335</strong></td></tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+          </div>
+    </section>
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="/Fasion Store.jpeg" alt="" />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 537 Wellington Road</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fi fi-brands-facebook"></i>
+            <i class="fi fi-brands-instagram"></i>
+            <i class="fi fi-brands-twitter"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="/app.jpeg" alt="" />
+          <img src="/play.jpeg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="/pay.png" alt="" />
+      </div>
+    </footer>
+    <div class="subfooter">
+      <div class="copyright">
+        <p>© 2023 THE BEST Ecommerce Template</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
